@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Upload Audio</h2>
+<form action="{{ url_for('input') }}" method="post" enctype="multipart/form-data">
+    <input type="file" name="audio_file" accept=".wav" required>
+    <button type="submit">Transcribe</button>
+</form>
+{% endblock %}

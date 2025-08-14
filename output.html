@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Transcription Result</h2>
+<p><strong>Transcribed Text:</strong></p>
+<p>{{ transcription }}</p>
+<a href="{{ url_for('input') }}">Try another file</a>
+{% endblock %}

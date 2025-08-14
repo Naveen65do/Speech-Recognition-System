@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    padding: 1em;
+}
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.container {
+    padding: 2em;
+}
+input, button {
+    padding: 0.5em;
+    margin-top: 1em;
+}

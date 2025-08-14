@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Welcome to the Speech-to-Text App</h1>
+<p>This app converts your speech (WAV audio) into text using a powerful AI model.</p>
+
+<!-- Try it now button -->
+<a href="{{ url_for('input') }}">
+    <button style="padding: 10px 20px; font-size: 16px;">🎤 Try it Now</button>
+</a>
+{% endblock %}
