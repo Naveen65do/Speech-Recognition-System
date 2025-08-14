@@ -59,3 +59,5 @@ Simple and responsive web interface
 
 OUTPUT:
 
+<img width="1905" height="692" alt="Image" src="https://github.com/user-attachments/assets/3654d730-b3ca-49ea-804e-81c15708ecdc" />
+
